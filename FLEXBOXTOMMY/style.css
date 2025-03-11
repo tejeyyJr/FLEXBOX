@@ -1,0 +1,45 @@
+.sudlanan {
+    background-color:rgb(39, 34, 27);
+    border: solid 5px orange;
+    width: 90%;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-evenly;
+    /* gap: 10em; */
+    text-align: center;
+    font-size: 2rem;
+
+
+
+}
+.tres, .kwatro{
+    flex-grow:1;
+    /* para mo dako ang box if naay space */
+    align-self:center;
+    flex-shrink: 5;
+    
+
+}
+.tres{
+    order:1;
+}
+.uno{ 
+    order: 5;
+    /* para ma adjust ang pagka sunod sa border */
+    flex-shrink: 2;
+    /* para sya una mo adjust if pagamyon anf screen */
+    
+}
+
+.box {
+    box-shadow: 5px 5px rgb(223, 194, 194);
+    border: solid 4px rgb(128, 117, 117);
+    gap: 4px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(107, 139, 150);
+    border-radius: 5px;
+}
+
